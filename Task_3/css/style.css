@@ -1,0 +1,18 @@
+ul{
+    width: 500px;
+    padding: 5px;
+}
+
+li{
+    display: inline-block;
+    width: 157px;
+    margin: 0 5px 5px 0;
+    border: 1px solid green;
+    text-align: center;
+    line-height: 30px;
+    background-color: rgba(223, 223, 223, 0.295);
+}
+
+li:nth-child(3), li:nth-child(7) {
+    background-color:rgb(137, 226, 137);
+}

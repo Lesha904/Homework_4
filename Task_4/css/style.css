@@ -1,0 +1,37 @@
+header{
+    background: rgb(169, 218, 169);
+    height: 50px;
+    width: 80%;
+}
+
+nav{
+    background: rgb(84, 180, 84);
+    height: 40px;
+    width: 80%;
+}
+
+.block{
+    background: rgb(100, 100, 253);
+    height: 375px;
+    width: 20%;
+    
+}
+section{
+    background: rgb(168, 210, 223);
+    width: 40%;
+    float: left;
+    height: 375px;
+}
+aside{
+    background: rgb(100, 100, 253);
+    width: 20%;
+    float: left;
+    height: 375px;
+}
+footer{
+    background: rgb(169, 218, 169);
+    height: 50px;
+    position: relative;
+    top: 375px;
+    width: 80%;
+}

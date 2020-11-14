@@ -1,0 +1,21 @@
+div{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+} 
+
+div::before{
+    content: open-quote;
+}
+
+div::after{
+    content: close-quote;
+}
+
+div::before, div::after {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+    color: green;
+}
+
+

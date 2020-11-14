@@ -1,0 +1,33 @@
+.container {
+    background-color: rgb(240, 240, 240);
+    height: 250px;
+}
+
+.wrapper {
+    width: 350px;
+    height: 125px;
+    background-color: white;
+    border: 2px solid red;
+    border-radius: 5px;
+    position: relative;
+    top: 62.5px;
+    left: 430px;
+    padding: 10px;    
+}
+
+h4 {
+    text-align: center;
+    transform: translateY(-10px);
+    font-weight: bold;
+}
+
+p {
+    transform: translateY(-30px);
+    text-align: justify;
+}
+
+hr {
+    transform: translateY(-20px);
+    opacity: .2;
+    width: 50%;
+}
